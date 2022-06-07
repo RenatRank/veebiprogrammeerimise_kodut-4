@@ -1,0 +1,58 @@
+/*
+Theme Name: Renati kodutöö
+Text Domain: rifoppekava
+Version: 1.0
+Tested up to: 5.9
+Requires at least: 5.9
+Requires PHP: 5.2.4
+Description: Veebiprogrammeerimise õppeaine raames loodud teema
+Tags: RIF, õppekava, veebiprogrammeerimine
+Author: Renat Ränk
+Author URI: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+body {
+    background-color:black;
+    background-image: url("images/backgr.jpg");
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+}
+
+
+.flex-container {
+    display:inline-flex;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+  }
+
+footer {
+    text-align: center;
+
+
+}
+
+.container{
+    background-color: rgb(238, 238, 238);
+    opacity: 0.9;
+    padding: 25px;
+    border-radius: 25px;    
+}
+
+h2{
+    
+    background-color: rgb(238, 238, 238);
+    border-radius: 25px;
+}
